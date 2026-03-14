@@ -1,147 +1,117 @@
-Machine Learning Prediction Notebooks
-Project Overview
+# Machine Learning Prediction Notebooks
 
+## Project Overview
 This repository contains multiple Jupyter Notebook projects demonstrating the machine learning workflow including data preprocessing, exploratory data analysis (EDA), model training, evaluation, and prediction using real-world datasets.
 
 The project uses datasets such as Diabetes Prediction, Titanic Survival Prediction, and Wine Quality Classification.
 
-Project Files
-Notebooks
+---
 
-Pima_Diabetes.ipynb – Predicts whether a patient has diabetes based on medical attributes.
+## Project Files
 
-titanic_prediction.ipynb – Predicts survival of Titanic passengers.
+### Notebooks
+- **Pima_Diabetes.ipynb**  
+  Predicts whether a patient has diabetes based on medical attributes.
 
-Wine_Quality.ipynb – Predicts wine quality using chemical properties.
+- **titanic_prediction.ipynb**  
+  Predicts survival of Titanic passengers using classification algorithms.
 
-Revision.ipynb – Practice notebook for preprocessing and ML model building.
+- **Wine_Quality.ipynb**  
+  Predicts wine quality based on chemical properties.
 
-Datasets
-Diabetes Dataset
+- **Revision.ipynb**  
+  Practice notebook for preprocessing and ML model building.
 
-File: diabetes.csv
+---
 
-Features:
+## Datasets
 
-Pregnancies
+### Diabetes Dataset
+**File:** `diabetes.csv`
 
-Glucose
+**Features**
+- Pregnancies
+- Glucose
+- BloodPressure
+- SkinThickness
+- Insulin
+- BMI
+- DiabetesPedigreeFunction
+- Age
 
-BloodPressure
+**Target**
+Outcome  
+- 0 → No Diabetes  
+- 1 → Diabetes
 
-SkinThickness
+---
 
-Insulin
+### Titanic Dataset
+**Files**
+- `Titanic-Dataset.csv`
+- `Cleaned-Titanic.csv`
 
-BMI
+**Features**
+- PassengerId
+- Pclass
+- Name
+- Sex
+- Age
+- SibSp
+- Parch
+- Fare
+- Embarked
 
-DiabetesPedigreeFunction
+**Target**
+Survived  
+- 0 → Did not survive  
+- 1 → Survived
 
-Age
+---
 
-Target:
-Outcome (0 = No Diabetes, 1 = Diabetes)
+### Wine Quality Dataset
+**File:** `WineQT.csv`
 
-Titanic Dataset
+**Features**
+- Fixed acidity
+- Volatile acidity
+- Citric acid
+- Residual sugar
+- Chlorides
+- Free sulfur dioxide
+- Total sulfur dioxide
+- Density
+- pH
+- Sulphates
+- Alcohol
 
-Files:
-
-Titanic-Dataset.csv
-
-Cleaned-Titanic.csv
-
-Features:
-
-PassengerId
-
-Pclass
-
-Name
-
-Sex
-
-Age
-
-SibSp
-
-Parch
-
-Fare
-
-Embarked
-
-Target:
-Survived (0 = Did not survive, 1 = Survived)
-
-Wine Quality Dataset
-
-File: WineQT.csv
-
-Features:
-
-Fixed acidity
-
-Volatile acidity
-
-Citric acid
-
-Residual sugar
-
-Chlorides
-
-Free sulfur dioxide
-
-Total sulfur dioxide
-
-Density
-
-pH
-
-Sulphates
-
-Alcohol
-
-Target:
+**Target**
 Quality Score
 
-Technologies Used
+---
 
-Python
+## Technologies Used
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-Jupyter Notebook
+---
 
-Pandas
+## Workflow
+1. Load dataset
+2. Data preprocessing
+3. Exploratory Data Analysis
+4. Feature selection
+5. Train–test split
+6. Model training
+7. Model evaluation
+8. Prediction
 
-NumPy
+---
 
-Matplotlib
-
-Seaborn
-
-Scikit-learn
-
-Workflow
-
-Load dataset
-
-Data preprocessing
-
-Exploratory Data Analysis
-
-Feature selection
-
-Train-test split
-
-Model training
-
-Model evaluation
-
-Prediction
-
-Goal
-
+## Goal
 The goal of this project is to practice machine learning pipelines and build predictive models using real-world datasets.
-
-If you want, I can also give you a much shorter professional README (about 8–10 lines) which looks cleaner for GitHub and ML portfolios.
-
-✨ Optimize Prompt
